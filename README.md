@@ -1,64 +1,85 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<h1>Aprendizado Laravel e APIs</h1>
 </p>
 
-## About Laravel
+## Sobre
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Este repositório documenta o aprendizado e os passos seguidos durante os cursos e tutoriais sobre o framework Laravel, além de práticas de construção de APIs. O objetivo é construir uma base sólida em Laravel, desde os conceitos iniciais até tópicos mais avançados, como autenticação, envio de e-mails, testes, transações, e criação de APIs RESTful.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Progressão do Aprendizado
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 1. Começando com Laravel
 
-## Learning Laravel
+Neste primeiro passo, o foco foi aprender a utilizar o Laravel em sua estrutura básica, abordando o padrão MVC (Model-View-Controller), criação de formulários, e a definição de relacionamentos entre entidades.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Concluído**:
+  - **Vídeo**: [Ecossistema PHP com Vinicius Dias | #HipstersPontoTube](https://www.youtube.com/watch?v=XXXXX) (YouTube)
+  - **Curso**: [Laravel: criando uma aplicação com MVC](https://www.alura.com.br/curso-online/laravel-criando-uma-aplicacao-com-mvc)
+  - **Curso**: [Laravel: validando formulários, usando sessões e definindo relacionamentos](https://www.alura.com.br/curso-online/laravel-validando-formularios-usando-sessoes-e-definindo-relacionamentos)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 2. Avançando com o Framework
 
-## Laravel Sponsors
+O foco aqui foi explorar tópicos mais avançados, como o uso de transações no banco de dados, o service container do Laravel, envio de e-mails, criação de eventos assíncronos, e testes unitários.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- **Concluído**:
+  - **Curso**: [Laravel: transações, service container e autenticação](https://www.alura.com.br/curso-online/laravel-transacoes-service-container-e-autenticacao)
+  - **Curso**: [Laravel: e-mails, eventos assíncronos, uploads e testes](https://www.alura.com.br/curso-online/laravel-enviando-emails-eventos-assincronos-e-upload-de-arquivos)
 
-### Premium Partners
+### 3. API
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Na etapa final, o foco foi construir uma API RESTful utilizando Laravel, explorando o uso do Eloquent ORM e as melhores práticas de modelagem de APIs.
 
-## Contributing
+- **Concluído**:
+  - **Alura+**: [O que é uma API?](https://www.alura.com.br/curso-online/o-que-e-uma-api)
+  - **Curso**: [Laravel: construindo APIs](https://www.alura.com.br/curso-online/laravel-construindo-apis)
+  - **Alura+**: [Boas práticas na Modelagem de APIs REST](https://www.alura.com.br/curso-online/boas-praticas-na-modelagem-de-apis-rest)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Tecnologias Usadas
 
-## Code of Conduct
+- **PHP 8.x**
+- **Laravel 8.x**
+- **MySQL/PostgreSQL**
+- **Node.js & NPM** (para dependências front-end)
+- **Composer** (gerenciador de dependências PHP)
+- **JUnit e PHPUnit** (para testes)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## O que Aprendi
 
-## Security Vulnerabilities
+Durante essa jornada, aprendi desde os conceitos mais básicos do Laravel até as funcionalidades mais avançadas, como:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **MVC (Model-View-Controller)**: Estrutura fundamental para organizar o código.
+- **Validação de formulários e gerenciamento de sessões**.
+- **Relacionamentos entre entidades** (1:N, N:M, etc).
+- **Transações** no banco de dados para garantir integridade dos dados.
+- **Service Container** para gerenciamento de dependências.
+- **Envio de e-mails**, criação de eventos assíncronos, uploads de arquivos.
+- **Testes unitários e de integração** com PHPUnit.
+- **Construção de uma API RESTful** com Laravel e boas práticas de design de API.
 
-## License
+## Próximos Passos
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Agora que os conceitos fundamentais foram cobertos, é hora de avançar ainda mais em projetos reais. Algumas ideias de próximos passos incluem:
+
+1. **Refinar APIs**:
+   - Implementar autenticação via JWT para proteger endpoints.
+   - Criar testes automatizados para APIs utilizando PHPUnit.
+   - Integrar APIs com front-end (React, Vue.js, etc).
+
+2. **Melhorar o Front-End**:
+   - Criar interfaces simples com Vue.js ou React e integrá-las com as APIs criadas.
+
+3. **Desplegar o projeto**:
+   - Estudar e realizar o deploy da aplicação em servidores como DigitalOcean ou AWS.
+   - Implementar CI/CD (Integração Contínua / Deploy Contínuo) utilizando GitHub Actions ou GitLab CI.
+
+4. **Contribuir com a comunidade**:
+   - Contribuir com projetos open-source no Laravel.
+   - Criar tutoriais ou artigos para compartilhar o conhecimento adquirido.
+
+
+Agradecimentos especiais aos cursos da Alura e a outros recursos que ajudaram a construir esse conhecimento:
+
+- **Laravel**: Framework utilizado para o desenvolvimento de aplicações.
+- **Alura**: Plataforma de ensino que forneceu os cursos.
+- **GitHub**: Para hospedar e versionar o código.
+
